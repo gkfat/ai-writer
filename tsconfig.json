@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "types": [
+        "node",
+        "vuetify"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ESNext",
+    "paths": {
+      "@/*": [
+          "./src/*"
+      ]
+  }
+  }
+}
