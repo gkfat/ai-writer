@@ -39,5 +39,5 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "actions@github.com"
           git add .
-          git commit -m "chore: add new article $(date +'%Y-%m-%d')" || echo "No changes"
+          git commit -m "chore: add new article $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
