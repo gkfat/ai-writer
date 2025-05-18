@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ai-writer-1lf.pages.dev/sitemap.xml
